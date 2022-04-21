@@ -15,7 +15,7 @@ export default function Player(props) {
         style={{ width: props.score + "%" }}
       />
       <p>
-        {props.name} (score: {props.score}){" "}
+        {props.name} score: {props.score}
         <button onClick={onClickIncrement}>increment</button>
       </p>
     </li>

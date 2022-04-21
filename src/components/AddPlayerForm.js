@@ -5,11 +5,9 @@ export default function AddPlayerForm(props) {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    console.log("in the form");
+
     props.addPlayer(name);
   };
-
-  console.log("name", name);
 
   return (
     <div>
